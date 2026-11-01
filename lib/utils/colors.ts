@@ -2,14 +2,14 @@ import type { SubjectColor } from "@/types/database";
 
 /** Subject color identifiers → static Tailwind classes (kept literal for the compiler). */
 export const SUBJECT_COLOR_STYLES: Record<SubjectColor, { dot: string; soft: string; text: string; hex: string; label: string }> = {
-  sage: { dot: "bg-[#6f9a77]", soft: "bg-[#6f9a77]/12", text: "text-[#4f7a57] dark:text-[#9cc4a3]", hex: "#6f9a77", label: "Sage" },
-  lavender: { dot: "bg-[#8d82be]", soft: "bg-[#8d82be]/12", text: "text-[#6c60a0] dark:text-[#b4aae0]", hex: "#8d82be", label: "Lavender" },
-  sand: { dot: "bg-[#c2a374]", soft: "bg-[#c2a374]/15", text: "text-[#93733f] dark:text-[#d8bc90]", hex: "#c2a374", label: "Sand" },
-  sky: { dot: "bg-[#6c9bb8]", soft: "bg-[#6c9bb8]/12", text: "text-[#46799a] dark:text-[#9cc3dc]", hex: "#6c9bb8", label: "Sky" },
-  rose: { dot: "bg-[#c58787]", soft: "bg-[#c58787]/12", text: "text-[#a25f5f] dark:text-[#e0a9a9]", hex: "#c58787", label: "Rose" },
-  slate: { dot: "bg-[#7f8790]", soft: "bg-[#7f8790]/12", text: "text-[#5c636b] dark:text-[#aeb5bd]", hex: "#7f8790", label: "Slate" },
-  amber: { dot: "bg-[#d29a4a]", soft: "bg-[#d29a4a]/12", text: "text-[#a06f24] dark:text-[#e6b874]", hex: "#d29a4a", label: "Amber" },
-  teal: { dot: "bg-[#5ea39b]", soft: "bg-[#5ea39b]/12", text: "text-[#3b7f77] dark:text-[#8fcac2]", hex: "#5ea39b", label: "Teal" },
+  sage: { dot: "bg-[#22c55e]", soft: "bg-[#22c55e]/12", text: "text-[#15803d] dark:text-[#86efac]", hex: "#22c55e", label: "Green" },
+  lavender: { dot: "bg-[#8b5cf6]", soft: "bg-[#8b5cf6]/12", text: "text-[#6d28d9] dark:text-[#c4b5fd]", hex: "#8b5cf6", label: "Violet" },
+  sand: { dot: "bg-[#f59e0b]", soft: "bg-[#f59e0b]/15", text: "text-[#b45309] dark:text-[#fcd34d]", hex: "#f59e0b", label: "Yellow" },
+  sky: { dot: "bg-[#3b82f6]", soft: "bg-[#3b82f6]/12", text: "text-[#1d4ed8] dark:text-[#93c5fd]", hex: "#3b82f6", label: "Blue" },
+  rose: { dot: "bg-[#f43f5e]", soft: "bg-[#f43f5e]/12", text: "text-[#be123c] dark:text-[#fda4af]", hex: "#f43f5e", label: "Pink" },
+  slate: { dot: "bg-[#64748b]", soft: "bg-[#64748b]/12", text: "text-[#334155] dark:text-[#cbd5e1]", hex: "#64748b", label: "Slate" },
+  amber: { dot: "bg-[#f97316]", soft: "bg-[#f97316]/12", text: "text-[#c2410c] dark:text-[#fdba74]", hex: "#f97316", label: "Orange" },
+  teal: { dot: "bg-[#14b8a6]", soft: "bg-[#14b8a6]/12", text: "text-[#0f766e] dark:text-[#5eead4]", hex: "#14b8a6", label: "Teal" },
 };
 
 export const colorFor = (c: string | null | undefined) =>

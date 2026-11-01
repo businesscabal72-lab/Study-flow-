@@ -6,48 +6,48 @@
 
 /* ── Design tokens ─────────────────────────────────────────────── */
 :root {
-  --radius: 0.625rem;
+  --radius: 0.75rem;
 
   --background: #ffffff;
-  --foreground: #2a2926;
-  --surface: #faf9f6;          /* warm off-white secondary surface */
+  --foreground: #1c2024;
+  --surface: #f8f9fb;          /* bright, cool off-white */
   --card: #ffffff;
-  --card-foreground: #2a2926;
+  --card-foreground: #1c2024;
   --popover: #ffffff;
-  --popover-foreground: #2a2926;
+  --popover-foreground: #1c2024;
 
-  --primary: #557a5c;          /* sage */
+  --primary: #16a05a;          /* fresh green */
   --primary-foreground: #ffffff;
-  --primary-soft: #eaf1ea;
+  --primary-soft: #e7f8ee;
 
-  --secondary: #f3f1ec;
-  --secondary-foreground: #2a2926;
-  --muted: #f4f2ee;
-  --muted-foreground: #74716a;
-  --accent: #f1efea;
-  --accent-foreground: #2a2926;
+  --secondary: #f3f5f7;
+  --secondary-foreground: #1c2024;
+  --muted: #f3f5f7;
+  --muted-foreground: #687076;
+  --accent: #f1f3f5;
+  --accent-foreground: #1c2024;
 
-  --lavender: #7d70ad;
-  --lavender-soft: #efecf7;
-  --sand: #a5844f;
-  --sand-soft: #f6efe3;
+  --lavender: #7c5cfa;
+  --lavender-soft: #f1edff;
+  --sand: #e88a0c;
+  --sand-soft: #fff4e2;
 
-  --destructive: #c14a3a;
-  --destructive-soft: #fbecea;
-  --warning: #b07316;
-  --warning-soft: #fbf2e2;
-  --success: #3f7d4f;
+  --destructive: #e5484d;
+  --destructive-soft: #ffeeee;
+  --warning: #d97706;
+  --warning-soft: #fff6e5;
+  --success: #16a34a;
 
-  --border: #e8e5df;
-  --input: #e3e0d9;
-  --ring: #8fb096;
+  --border: #e9ecef;
+  --input: #e1e5ea;
+  --ring: #6dd59c;
 
-  --sidebar: #faf9f6;
-  --chart-1: #6f9a77;
-  --chart-2: #8d82be;
-  --chart-3: #c2a374;
-  --chart-4: #6c9bb8;
-  --chart-5: #c58787;
+  --sidebar: #fbfcfd;
+  --chart-1: #22c55e;
+  --chart-2: #8b5cf6;
+  --chart-3: #f59e0b;
+  --chart-4: #3b82f6;
+  --chart-5: #ec4899;
 }
 
 .dark {
@@ -137,8 +137,8 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --shadow-soft: 0 1px 2px rgb(30 28 24 / 0.04), 0 1px 3px rgb(30 28 24 / 0.04);
-  --shadow-float: 0 4px 16px rgb(30 28 24 / 0.08), 0 1px 3px rgb(30 28 24 / 0.05);
+  --shadow-soft: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
+  --shadow-float: 0 8px 24px rgb(16 24 40 / 0.08), 0 2px 6px rgb(16 24 40 / 0.05);
 }
 
 @layer base {
