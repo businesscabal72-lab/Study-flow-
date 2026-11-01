@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Offline · StudyFlow</title>
+  <meta name="theme-color" content="#557a5c" />
+  <style>
+    :root { color-scheme: light dark; --bg:#fff; --fg:#2a2926; --muted:#74716a; --accent:#557a5c; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#191918; --fg:#ebe9e4; --muted:#a09d96; --accent:#8db394; } }
+    body { margin:0; min-height:100dvh; display:grid; place-items:center; background:var(--bg); color:var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; text-align:center; padding:24px; }
+    h1 { font-size:18px; margin:16px 0 6px; } p { color:var(--muted); font-size:14px; max-width:340px; margin:0 auto; line-height:1.5; }
+    button { margin-top:20px; background:var(--accent); color:#fff; border:0; border-radius:8px; padding:10px 16px; font-size:14px; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="/icons/icon.svg" width="44" height="44" alt="" />
+    <h1>You're offline</h1>
+    <p>StudyFlow needs an internet connection to load and save your notes, deadlines and AI chats. Nothing is stored offline yet.</p>
+    <button onclick="location.reload()">Try again</button>
+  </main>
+</body>
+</html>
